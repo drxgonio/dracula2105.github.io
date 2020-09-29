@@ -163,13 +163,26 @@ button:hover {
 }
 
 .right {
-    width: 75%;
+    width: 70%;
     height: 57vh;
-    background: url("../imga/f0656e1ecddff7f8221d05ed2db1d33e.gif")no-repeat;
+    /*background: url("../imga/f0656e1ecddff7f8221d05ed2db1d33e.gif")no-repeat; */
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
+    margin-left: 40px;
     float: right;
+    display: none;
+}
+
+.ccc {
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    bottom: 640px;
+    right: 640px;
+    font-size: 70;
 }
 
 .search2 {
@@ -767,7 +780,7 @@ button:hover {
     position: relative;
     z-index: 100;
     text-shadow: 0 0 2px #fff;
-    margin-left: 400px;
+    margin-left: 40px;
     font-family: hien2;
     margin-top: 230px;
     letter-spacing: 10px;
@@ -787,9 +800,9 @@ button:hover {
     position: relative;
     z-index: 100;
     text-shadow: 0 0 2px #fff;
-    margin-left: 400px;
+    margin-left: 40px;
     font-family: hien2;
-    margin-top: 230px;
+    margin-top: 30px;
     letter-spacing: 10px;
     width: 600px;
 }

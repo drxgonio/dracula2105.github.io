@@ -97,14 +97,50 @@
                     <div class="ev">Environment Illustration</div>
                 </a>
             </div>
+            <button class="w3-button w3-display-left w3-black " onclick="plusDivs(-1)" style=" position: absolute;
+            color:blue;
+            bottom: 800px;
+            left: 700px;
+            font-size: 70;">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)" style=" position: absolute;
+            color:blue;
+            bottom: 800px;
+            right:  10px;
+            font-size: 70;">&#10095;</button>
             <div class="right">
-                <h1 style="opacity:0.7" class="text2 title">Trideptrai hihi ...</h1>
-                <h6 style="opacity:0.7" class="text2 title-time" style="font-size: 10px;">
-                    <p id="example"></p>
-                </h6>
+                <img src="./imga/f0656e1ecddff7f8221d05ed2db1d33e.gif" style=" width: 90%;
+                height: 57vh;" />
+                <div class="ccc">
+                    <h1 style="opacity:0.7" class="text2 title">Hienne hihi ...</h1>
+                    <h6 style="opacity:0.7" class="text2 title-time" style="font-size: 10px;">
+                        <p id="example"></p>
+                    </h6>
+                </div>
             </div>
+            <div class="right">
+                <img src="./imga/b82f28a7e9c8fcb3868d3d94652c107c.gif" style=" width: 90%;
+                height: 57vh;" />
+                <div class="ccc">
+                    <h1 style="opacity:0.7" class="text2 title">Hienne hihi ...</h1>
+                    <h6 style="opacity:0.7" class="text2 title-time" style="font-size: 10px;">
+                        <p id="example1"></p>
+                    </h6>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./imga/pixel-jeff-clipa-s.gif" style=" width: 90%;
+                height: 57vh;" />
+                <div class="ccc">
+                    <h1 style="opacity:0.7" class="text2 title">Hienne hihi ...</h1>
+                    <h6 style="opacity:0.7" class="text2 title-time" style="font-size: 10px;">
+                        <p id="example2"></p>
+                    </h6>
+                </div>
+            </div>
+
         </section>
         <section class="bg2" id="trending">
+
             <h1 class="animatetext">Tren<span style="color:#2e8cdb">ding</span></h1>
             <div class="box1"></div>
             <div class="box2"></div>
@@ -157,6 +193,13 @@
                 <div class="r2"></div>
                 <div class="r3"></div>
             </div>
+            <audio controls autoplay>
+                <source src="./mp3/hello.mp3" type="audio/ogg">
+           </audio>
+            <!-- <audio autoplay loop controls id="playAudio">
+            <source src="mp3/hello.mp3">
+          </audio> -->
+
         </section>
 
     </div>
@@ -371,6 +414,10 @@
             inputNode.addEventListener('change', playSelectedFile, false);
         </script>
         <script src="js/timer.js"></script>
+
+        <script>
+            var myaudio = document.getElementById("audioID").autoplay = true;
+        </script>
     </div>
 
 </body>

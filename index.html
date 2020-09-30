@@ -23,29 +23,15 @@
             <div class="textdangnhap">
                 <h3>Your email:</h3>
             </div>
-            <input type="text" id="email" class="odangnhap" placeholder=" Gmail">
+            <input type="text" id="email" class="odangnhap" placeholder=" Gmail" required>
             <div class="textdangnhap">
                 <h3> Password:</h3>
             </div>
-            <input type="password" id="matkhau" class="odangnhap" placeholder=" Password">
-            <div class="nutdangnhap" onClick="hiensignin()"><i class="fas fa-sign-in-alt signin"></i> Sign In </div>
+            <input type="password" id="matkhau" class="odangnhap" placeholder=" Password" required>
+            <div class="nutdangnhap" onClick="login()"><i class="fas fa-sign-in-alt signin"></i> Sign In </div>
             <h4 class="quenmk"><a href="#">Forgot password?</a></h4>
             <h4 class="signup"><a href="#">Sign up</a></h4>
         </div>
-
-
-
-        <script>
-            function hiensignin() {
-                var x = document.getElementById("trangsignin");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
-            }
-        </script>
-
 
 
         <div class="fixed">
@@ -193,7 +179,7 @@
                 <div class="r2"></div>
                 <div class="r3"></div>
             </div>
-            <audio controls autoplay>
+            <audio controls autoplay loop controls>
                 <source src="./mp3/hello.mp3" type="audio/ogg">
            </audio>
             <!-- <audio autoplay loop controls id="playAudio">
@@ -414,6 +400,7 @@
             inputNode.addEventListener('change', playSelectedFile, false);
         </script>
         <script src="js/timer.js"></script>
+        <script src="js/login.js"></script>
 
         <script>
             var myaudio = document.getElementById("audioID").autoplay = true;

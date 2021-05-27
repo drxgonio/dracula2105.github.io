@@ -2,7 +2,7 @@ setInterval(function() {
     var date = new Date();
     var x = document.getElementById("gallery");
     var mydate = new Date('2021-05-28');
-  if (mydate.getTime() >= date.getTime()) {
+  if (mydate.getTime() <= date.getTime()) {
     x.style.display = "block";
   } else {
     x.style.display = "none";

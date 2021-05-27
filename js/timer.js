@@ -1,8 +1,16 @@
 setInterval(function() {
     var date = new Date();
+    var x = document.getElementById("gallery");
+    var mydate = new Date('2021-05-28');
+  if (mydate.getTime() <= date.getTime()) {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
     var format = "YYYY-MMM-DD DDD";
-    dateConvert(date, format)
-}, 1);
+    dateConvert(date, format);
+    
+}, 2);
 
 function dateConvert(dateobj, format) {
     var year = dateobj.getFullYear();
